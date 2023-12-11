@@ -1,1 +1,8 @@
+// Navbar
+@mixin nav-link-color {
+  color: $nav-link-color !important;
 
+  &.active {
+    color: $active-nav-link-color !important;
+  }
+}

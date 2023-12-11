@@ -46,3 +46,32 @@ body button i {
 .navbar .nav-link.active {
   color: orange !important;
 }
+
+.custom-control #moonIcon {
+  top: 6px;
+  font-size: 8px;
+  left: 3px;
+}
+.custom-control #sunIcon {
+  top: 3px;
+  left: 3px;
+  font-size: 0.75em;
+}
+
+.custom-switch .custom-control-label::before {
+  background-color: #dedede;
+  box-shadow: none !important;
+}
+
+.custom-switch .custom-control-label::after {
+  background-color: #fff;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #fff;
+}

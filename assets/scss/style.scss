@@ -49,4 +49,38 @@ body {
   }
 }
 
+// dark light mode / switch
 
+.custom-control {
+  #moonIcon {
+    top: 6px;
+    font-size: 8px;
+    left: 3px;
+  }
+  #sunIcon {
+    top: 3px;
+    left: 3px;
+    font-size: 0.75em;
+  }
+}
+
+// Page load time state
+.custom-switch .custom-control-label::before {
+  background-color: $bg-radio-button;
+  box-shadow: none !important;
+}
+
+.custom-switch .custom-control-label::after {
+  background-color: $bg-white;
+}
+
+// after click
+.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: $bg-white;
+  box-shadow: none;
+}
+
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: $bg-white;
+}
+// end dark light mode
