@@ -38,3 +38,11 @@ body button {
 body button i {
   font-size: 1.5em;
 }
+
+.navbar .nav-link {
+  color: rgb(120, 135, 163) !important;
+  padding-right: 1rem !important;
+}
+.navbar .nav-link.active {
+  color: orange !important;
+}

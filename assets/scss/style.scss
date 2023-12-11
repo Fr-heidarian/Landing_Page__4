@@ -6,7 +6,7 @@
     width: 75%;
   }
 }
-// General
+// General Css
 body {
   background: $bg-color;
   color: $text-color-primary;
@@ -42,3 +42,11 @@ body {
     }
   }
 }
+.navbar {
+  .nav-link {
+    @include nav-link-color;
+    padding-right: 1rem !important;
+  }
+}
+
+
