@@ -1,2 +1,44 @@
 @import "./_colors.scss";
 @import "./mixin.scss";
+
+@media screen and (min-width: 765px) {
+  .container {
+    width: 75%;
+  }
+}
+// General
+body {
+  background: $bg-color;
+  color: $text-color-primary;
+  header {
+    padding: 2em 5em;
+  }
+  .container {
+    width: 80%;
+  }
+  .container-fluid {
+    width: 90%;
+  }
+  p {
+    color: $text-color-primary;
+  }
+  h1 {
+    background: linear-gradient(to right, #23b1eb 0%, #12ebeb 25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h5,
+  h6 {
+    color: $text-color-headers;
+  }
+  button {
+    background-image: linear-gradient(to right, #23b1eb, #12ebeb) !important;
+    box-shadow: none !important;
+    font-size: 0.75em !important;
+    font-weight: bold;
+    i {
+      font-size: 1.5em;
+    }
+  }
+}
