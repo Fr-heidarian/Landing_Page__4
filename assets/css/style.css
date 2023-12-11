@@ -44,7 +44,7 @@ body button i {
   padding-right: 1rem !important;
 }
 .navbar .nav-link.active {
-  color: orange !important;
+  color: #23b1eb !important;
 }
 
 .custom-control #moonIcon {

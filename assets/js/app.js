@@ -1,30 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var switchElement = document.getElementById("switch");
-  var moonIcon = document.getElementById("moonIcon");
-  var sunIcon = document.getElementById("sunIcon");
+  const switchElement = document.getElementById("switch");
+  const moonIcon = document.getElementById("moonIcon");
+  const sunIcon = document.getElementById("sunIcon");
 
   switchElement.checked = false;
 
   moonIcon.style.display = "inline";
   moonIcon.style.color = "#23b1eb";
   sunIcon.style.display = "none";
+
+  switchElement.addEventListener("change", function () {
+    const bodyElement = document.body;
+    const isSwitchChecked = switchElement.checked;
+
+    bodyElement.style.backgroundColor = isSwitchChecked ? "white" : "";
+    moonIcon.style.display = isSwitchChecked ? "none" : "inline";
+    sunIcon.style.display = isSwitchChecked ? "inline" : "none";
+    moonIcon.style.color = isSwitchChecked ? "" : "#23b1eb";
+    sunIcon.style.color = isSwitchChecked ? "orange" : "";
+  });
 });
-
-function changeBackgroundColor() {
-  var switchElement = document.getElementById("switch");
-  var moonIcon = document.getElementById("moonIcon");
-  var sunIcon = document.getElementById("sunIcon");
-  var bodyElement = document.body;
-
-  if (switchElement.checked) {
-    bodyElement.style.backgroundColor = "white";
-    moonIcon.style.display = "none";
-    sunIcon.style.display = "inline";
-    sunIcon.style.color = "orange";
-  } else {
-    bodyElement.style.backgroundColor = "";
-    moonIcon.style.display = "inline";
-    sunIcon.style.display = "none";
-    moonIcon.style.color = "black";
-  }
-}
