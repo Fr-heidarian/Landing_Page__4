@@ -133,3 +133,69 @@ body {
   background-image: url(../images/travel.jpg);
   @extend .hotTopics-plant;
 }
+// Editor's Picked Section
+
+.editor-section {
+  .card,
+  .jumbotron {
+    background-color: $card-bg-color;
+    border: 1px solid $card-border-color !important;
+    color: $text-color-primary;
+  }
+  .card {
+    min-height: 488px;
+  }
+  .card-header {
+    border-bottom: none !important;
+    background-color: transparent !important;
+  }
+  .card-body {
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+  .card-footer {
+    border-top: none !important;
+    background-color: transparent !important;
+  }
+  .card-footer .card-circle {
+    border-radius: 50px;
+    padding: 1.5em !important;
+    background-color: $bg-color;
+    small {
+      color: $text-color-primary !important;
+      right: 10px;
+      top: 12px;
+    }
+  }
+  .bg-jumbotron {
+    background-color: rgba(43, 79, 155, 1);
+  }
+  .editor-section-first-row {
+    .card {
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+      border-bottom-left-radius: 15px !important;
+      border-bottom-right-radius: 15px !important;
+      border-top: 0 !important;
+
+      .card-img-top {
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+      }
+    }
+  }
+  .editor-section-second-row {
+    .card {
+      border-radius: 15px !important;
+    }
+  }
+
+  .border-line {
+    // @include border-with-radius-bottom(7px, 70px, 160px);
+    width: 160px;
+    height: 0.45em;
+    background-image: linear-gradient(to right, #23b1eb, #12ebeb);
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+  }
+}

@@ -120,3 +120,59 @@ body button i {
 .hotTopics-Travel {
   background-image: url(../images/travel.jpg);
 }
+
+.editor-section .card,
+.editor-section .jumbotron {
+  background-color: rgb(20, 28, 51);
+  border: 1px solid rgb(33, 48, 69) !important;
+  color: rgb(103, 135, 179);
+}
+.editor-section .card {
+  min-height: 488px;
+}
+.editor-section .card-header {
+  border-bottom: none !important;
+  background-color: transparent !important;
+}
+.editor-section .card-body {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.editor-section .card-footer {
+  border-top: none !important;
+  background-color: transparent !important;
+}
+.editor-section .card-footer .card-circle {
+  border-radius: 50px;
+  padding: 1.5em !important;
+  background-color: rgb(15, 23, 42);
+}
+.editor-section .card-footer .card-circle small {
+  color: rgb(103, 135, 179) !important;
+  right: 10px;
+  top: 12px;
+}
+.editor-section .bg-jumbotron {
+  background-color: rgb(43, 79, 155);
+}
+.editor-section .editor-section-first-row .card {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+  border-top: 0 !important;
+}
+.editor-section .editor-section-first-row .card .card-img-top {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.editor-section .editor-section-second-row .card {
+  border-radius: 15px !important;
+}
+.editor-section .border-line {
+  width: 160px;
+  height: 0.45em;
+  background-image: linear-gradient(to right, #23b1eb, #12ebeb);
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 75px;
+}
