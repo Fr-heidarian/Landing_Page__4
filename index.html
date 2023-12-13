@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- External Bootstrap CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
     <!-- CDN Bootstrap ICON -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- External CSS -->
@@ -17,13 +16,14 @@
 <body>
     <!-- Header Start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
             <a href="" class="navbar-brand d-flex">
                 <img src="assets/images/logo.jpg" alt="logo">
                 <h2>GENZ</h2>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -93,7 +93,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="d-flex align-items-center">
+            <div class="d-lg-flex align-items-center d-lg-block d-none">
                 <i class="bi bi-search text-white pr-2"></i>
                 <!-- Switch Day and Light-->
                 <div class="custom-control custom-switch position-relative">
@@ -107,6 +107,37 @@
         </nav>
     </header>
     <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-md-5">
+                    <span>Hello Everyone!</span>
+                    <h2 class="display-4 font-weight-bold text-white">I'm</h2>
+                    <h1 class=" display-4 font-weight-bold"> Creator<strong>|</strong> </h1>
+                    <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and
+                        every interaction. I'm not adding motion just to spruce things up, but doing it in ways that.
+                    </p>
+                    <form action="" class="position-relative">
+                        <div class="form-group my-5">
+                            <input class="form-control" placeholder="Type your email address">
+                            </input>
+                            <button
+                                class="position-absolute btn font-weight-bold text-white d-flex align-items-center py-1">
+                                Subscribe
+                                <i class="bi bi-arrow-right-short"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-7">
+                    <img src="assets/images/person.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
 
 
 

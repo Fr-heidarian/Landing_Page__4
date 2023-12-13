@@ -84,3 +84,21 @@ body {
   background-color: $bg-white;
 }
 // end dark light mode
+
+//Hero Section Input Tag
+
+#hero .form-group {
+  .form-control {
+    background-color: $text-color-input !important;
+    height: calc(2.3em + 0.75rem + 2px);
+    border: 1px solid $text-active-color !important;
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+  button.btn {
+    top: 8px;
+    right: 5px;
+    font-size: 0.85em;
+  }
+}

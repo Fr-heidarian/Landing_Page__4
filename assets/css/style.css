@@ -75,3 +75,17 @@ body button i {
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   background-color: #fff;
 }
+
+#hero .form-group .form-control {
+  background-color: rgb(33, 48, 69) !important;
+  height: calc(2.3em + 0.75rem + 2px);
+  border: 1px solid #23b1eb !important;
+}
+#hero .form-group .form-control:focus {
+  box-shadow: none !important;
+}
+#hero .form-group button.btn {
+  top: 8px;
+  right: 5px;
+  font-size: 0.85em;
+}
