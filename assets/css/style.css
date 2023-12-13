@@ -89,3 +89,34 @@ body button i {
   right: 5px;
   font-size: 0.85em;
 }
+
+#hot-topics .row {
+  background-color: rgb(20, 28, 51);
+  border: 1px solid rgb(33, 48, 69) !important;
+  border-radius: 10px;
+}
+#hot-topics .row .arrow-key {
+  background-color: rgb(33, 48, 69);
+}
+
+.hotTopics-plant, .hotTopics-Travel, .hotTopics-Business, .hotTopics-Nature {
+  background-image: url(../images/plant.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px !important;
+}
+.hotTopics-plant small, .hotTopics-Travel small, .hotTopics-Business small, .hotTopics-Nature small {
+  color: rgb(103, 135, 179) !important;
+}
+
+.hotTopics-Nature {
+  background-image: url(../images/recent-post-5.jpg);
+}
+
+.hotTopics-Business {
+  background-image: url(../images/recent-post-4.jpg);
+}
+
+.hotTopics-Travel {
+  background-image: url(../images/travel.jpg);
+}
