@@ -199,3 +199,14 @@ body {
     border-bottom-right-radius: 75px;
   }
 }
+// Popular Tags Section
+
+.box {
+  border-radius: 0.75em;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  color: $text-color-primary !important;
+  &.box-color {
+    @include color-panel($card-bg-color, $card-border-color);
+  }
+}

@@ -6,3 +6,9 @@
     color: $active-nav-link-color !important;
   }
 }
+// Popular Tags Section
+@mixin color-panel($color1, $color2) {
+  border: 1px solid $color2;
+  background-color: $color1;
+  color: $color2;
+}

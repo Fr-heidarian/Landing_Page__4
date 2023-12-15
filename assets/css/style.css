@@ -176,3 +176,15 @@ body button i {
   border-bottom-left-radius: 75px;
   border-bottom-right-radius: 75px;
 }
+
+.box {
+  border-radius: 0.75em;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  color: rgb(103, 135, 179) !important;
+}
+.box.box-color {
+  border: 1px solid rgb(33, 48, 69);
+  background-color: rgb(20, 28, 51);
+  color: rgb(33, 48, 69);
+}
