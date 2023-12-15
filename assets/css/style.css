@@ -188,3 +188,23 @@ body button i {
   background-color: rgb(20, 28, 51);
   color: rgb(33, 48, 69);
 }
+
+.recent-post-section img {
+  border-radius: 10px;
+}
+.recent-post-section p {
+  color: rgb(103, 135, 179);
+}
+.recent-post-section small {
+  color: rgb(69, 87, 109);
+}
+.recent-post-section h4 {
+  background: linear-gradient(to right, #23b1eb 0%, #12ebeb 25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.recent-post-section .media .media-body a {
+  background-color: rgb(33, 48, 69);
+  font-size: 0.75em !important;
+}

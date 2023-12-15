@@ -210,3 +210,28 @@ body {
     @include color-panel($card-bg-color, $card-border-color);
   }
 }
+.recent-post-section{
+   img {
+    border-radius: 10px;
+  }
+  p {
+    color: $text-color-primary;
+  }
+  small {
+    color: $text-color-secondary;
+  }
+  h4 {
+    background: linear-gradient(to right, #23b1eb 0%, #12ebeb 25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .media {
+    .media-body {
+      a {
+        background-color: $text-color-input;
+        font-size: 0.75em !important;
+      }
+    }
+  }
+}
