@@ -208,3 +208,32 @@ body button i {
   background-color: rgb(33, 48, 69);
   font-size: 0.75em !important;
 }
+.recent-post-section .popular-post-col, .recent-post-section .Genz-col, .recent-post-section .last-comment-col {
+  border: 1px solid rgb(33, 48, 69) !important;
+  border-radius: 10px;
+  background-color: rgb(20, 28, 51) !important;
+}
+.recent-post-section .popular-post-col p, .recent-post-section .Genz-col p, .recent-post-section .last-comment-col p {
+  color: rgb(179, 232, 251);
+  padding-top: 0.75em !important;
+  font-size: 0.85em !important;
+}
+.recent-post-section .popular-post-col .line, .recent-post-section .Genz-col .line, .recent-post-section .last-comment-col .line {
+  border-bottom: 1px solid rgb(33, 48, 69) !important;
+  padding-bottom: 1em !important;
+}
+.recent-post-section .last-comment-col p {
+  color: rgb(103, 135, 179) !important;
+}
+.recent-post-section .last-comment-col small {
+  color: rgb(69, 87, 109) !important;
+}
+.recent-post-section .border-line {
+  border: 3px solid rgb(20, 28, 51);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: auto;
+}
+.recent-post-section .Genz-col h6 {
+  color: rgb(103, 135, 179);
+}
