@@ -267,3 +267,28 @@ body {
     }
   }
 }
+// Footer Section
+
+.footer-section {
+  @extend .box;
+  span {
+    color: $text-active-color;
+  }
+  .container {
+    width: 90% !important;
+  }
+  .border {
+    border: 1px solid $text-color-input !important;
+  }
+  .form-control {
+    &::placeholder {
+      color: $text-color-secondary;
+      font-size: 0.75em;
+    }
+  }
+  .footer-categories {
+    small {
+      margin-bottom: 1em !important;
+    }
+  }
+}

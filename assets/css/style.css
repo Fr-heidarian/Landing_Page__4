@@ -177,13 +177,13 @@ body button i {
   border-bottom-right-radius: 75px;
 }
 
-.box {
+.box, .footer-section {
   border-radius: 0.75em;
   padding: 0.5em 1em;
   margin-bottom: 1em;
   color: rgb(103, 135, 179) !important;
 }
-.box.box-color {
+.box.box-color, .box-color.footer-section {
   border: 1px solid rgb(33, 48, 69);
   background-color: rgb(20, 28, 51);
   color: rgb(33, 48, 69);
@@ -236,4 +236,21 @@ body button i {
 }
 .recent-post-section .Genz-col h6 {
   color: rgb(103, 135, 179);
+}
+
+.footer-section span {
+  color: #23b1eb;
+}
+.footer-section .container {
+  width: 90% !important;
+}
+.footer-section .border {
+  border: 1px solid rgb(33, 48, 69) !important;
+}
+.footer-section .form-control::placeholder {
+  color: rgb(69, 87, 109);
+  font-size: 0.75em;
+}
+.footer-section .footer-categories small {
+  margin-bottom: 1em !important;
 }
